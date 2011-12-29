@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tds.doc.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 Defines a structure for placement of TeX-related files on an
@@ -37,7 +35,6 @@ readily implementable.
 %doc %{_texmfdistdir}/doc/generic/tds/tds.tex
 %doc %{_texmfdistdir}/doc/generic/tds/tds2texi.el
 %doc %{_texmfdistdir}/doc/generic/tds/tdsguide.cls
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -48,5 +45,3 @@ readily implementable.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
