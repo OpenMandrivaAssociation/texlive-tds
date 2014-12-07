@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-tds
 Version:	1.1
-Release:	8
+Release:	9
 Summary:	The TeX Directory Structure standard
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/tds
