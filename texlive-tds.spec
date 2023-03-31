@@ -1,6 +1,6 @@
 Name:		texlive-tds
 Version:	64477
-Release:	1
+Release:	2
 Summary:	The TeX Directory Structure standard
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/tds
