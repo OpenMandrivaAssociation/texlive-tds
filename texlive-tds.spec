@@ -3,7 +3,7 @@ Version:	64477
 Release:	2
 Summary:	The TeX Directory Structure standard
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/tds
+URL:		https://www.ctan.org/tex-archive/tds
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tds.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tds.doc.r%{version}.tar.xz
